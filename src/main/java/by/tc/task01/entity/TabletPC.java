@@ -4,7 +4,6 @@ import javax.sql.rowset.serial.SerialArray;
 import java.io.Serializable;
 
 public class TabletPC extends Appliance implements Serializable{
-	// you may add your own code here
     private double batteryCapacity;
     private double displayInches;
     private double memoryRom;

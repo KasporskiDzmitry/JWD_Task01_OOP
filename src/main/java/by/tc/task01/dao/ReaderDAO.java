@@ -15,36 +15,32 @@ import java.util.Map;
  */
 public class ReaderDAO{
 
-    private String editedStr;
-    private String[] editedStrArrayView;
-    private String str;
+    private File file = new File(".\\src\\main\\resources\\appliances_db.txt");
+    private FileReader fr;
     private ArrayList<String> keys = new ArrayList<>();
     private ArrayList<Object> values = new ArrayList<>();
     private Map<String, Object> mapFromDB = new HashMap<>();
+    private String editedStr;
+    private String[] editedStrArrayView;
+    private String str;
     private int numberOfMatches;
-    File file = new File(".\\src\\main\\resources\\appliances_db.txt");
-    FileReader fr;
+    private boolean match;
 
     public Map<String, Object> readFile(Criteria criteria) {
-        numberOfMatches = 0;
         mapFromDB.clear();
         str = "";
-        boolean match = false;
+        match = false;
+
         try {
             fr = new FileReader(file);
             BufferedReader br = new BufferedReader(fr);
-            while (str != null) {
+            while (str != null | match) {
                 str = br.readLine();
-                if (match == true & !str.contains(criteria.getApplianceType())) {
-                    break;
-                }
-                if (str.contains(criteria.getApplianceType())) {
-                    match = true;
+                if (str != null && str.contains(criteria.getApplianceType())) {
                     editLine(str, criteria);
                 }
-                keys.clear();
-                values.clear();
                 if (compareTwoMaps(criteria,mapFromDB)) {
+                    match = true;
                     return mapFromDB;
                 } else {
                     continue;
@@ -75,9 +71,12 @@ public class ReaderDAO{
         for (int j = 0; j < keys.size(); j++) {
             mapFromDB.put(keys.get(j), values.get(j));
         }
+        keys.clear();
+        values.clear();
     }
 
     private <E> boolean compareTwoMaps(Criteria<E> criteria, Map<String, Object> mapFromDB) {
+        numberOfMatches = 0;
         for (Map.Entry<E, Object> pair : criteria.getCriteria().entrySet()) {
             String keyFromCriteria = String.valueOf(pair.getKey());
             Object valueFromCriteria = pair.getValue();

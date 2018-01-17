@@ -14,28 +14,22 @@ public class ApplianceCreator{
 
     public <E> Appliance createApp(Criteria<E> criteria, Map<String, Object> mapFromDB) {
         if (criteria.getApplianceType().equals("Oven")) {
-            OvenCreator ovenCreator = new OvenCreator();
-            appliance = ovenCreator.create(mapFromDB);
+            appliance = new OvenCreator().create(mapFromDB);
         }
         if (criteria.getApplianceType().equals("Laptop")) {
-            LaptopCreator laptopCreator = new LaptopCreator();
-            appliance = laptopCreator.create(mapFromDB);
+            appliance = new LaptopCreator().create(mapFromDB);
         }
         if (criteria.getApplianceType().equals("Refrigerator")) {
-            RefrigeratorCreator refrigeratorCreator = new RefrigeratorCreator();
-            appliance = refrigeratorCreator.create(mapFromDB);
+            appliance = new RefrigeratorCreator().create(mapFromDB);
         }
         if (criteria.getApplianceType().equals("Speakers")) {
-            SpeakersCreator speakersCreator = new SpeakersCreator();
-            appliance = speakersCreator.create(mapFromDB);
+            appliance = new SpeakersCreator().create(mapFromDB);
         }
         if (criteria.getApplianceType().equals("TabletPC")) {
-            TabletPCCreator tabletPCCreator = new TabletPCCreator();
-            appliance = tabletPCCreator.create(mapFromDB);
+            appliance = new TabletPCCreator().create(mapFromDB);
         }
         if (criteria.getApplianceType().equals("VacuumCleaner")) {
-            VacuumCleanerCreator vacuumCleanerCreator = new VacuumCleanerCreator();
-            appliance = vacuumCleanerCreator.create(mapFromDB);
+            appliance = new VacuumCleanerCreator().create(mapFromDB);
         }
         return appliance;
     }

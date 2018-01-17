@@ -12,9 +12,6 @@ public class Criteria<E> {
 	public void add(E searchCriteria, Object value) {
 		criteria.put(searchCriteria, value);
 	}
-	
-	// you may add your own code here
-
 
 	public String getApplianceType() {
 		return applianceType;

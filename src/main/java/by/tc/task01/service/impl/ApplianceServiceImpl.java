@@ -9,7 +9,11 @@ import by.tc.task01.service.validation.Validator;
 
 public class ApplianceServiceImpl implements ApplianceService{
 
+
 	public <E> Appliance find(Criteria<E> criteria) {
+
+		System.out.println("--------------------------NEW REQUEST--------------------------------");
+
 		if (!Validator.criteriaValidator(criteria)) {
 			return null;
 		}
@@ -19,12 +23,8 @@ public class ApplianceServiceImpl implements ApplianceService{
 
 		Appliance appliance = applianceDAO.find(criteria);
 		criteria.getCriteria().clear();
-
-		// you may add your own code here
 		
 		return appliance;
 	}
 
 }
-
-//you may add your own new classes

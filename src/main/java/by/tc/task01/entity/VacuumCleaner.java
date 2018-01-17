@@ -3,7 +3,6 @@ package by.tc.task01.entity;
 import java.io.Serializable;
 
 public class VacuumCleaner extends Appliance implements Serializable{
-	// you may add your own code here
     private double powerConsumption;
     private String filterType;
     private String bagType;

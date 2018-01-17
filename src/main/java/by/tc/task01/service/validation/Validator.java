@@ -6,9 +6,8 @@ import by.tc.task01.entity.criteria.SearchCriteriaByValue;
 import java.util.Map;
 
 public class Validator {
-	
+
 	public static <E> boolean criteriaValidator(Criteria<E> criteria) {
-		// you may add your own code here
         String valueOfKey;
         char c;
 
@@ -23,7 +22,6 @@ public class Validator {
                     c = valueOfKey.charAt(i);
                     if (!(c >= '0' && c <= '9' || c == '.')) {
                         System.out.println();
-                        System.out.println("--------------------------NEW REQUEST--------------------------------");
                         System.out.println("Объект: " + criteria.getApplianceType());
                         System.out.println(key.toString() + " = " + valueOfKey + " [Неверное значение]");
                         return false;
@@ -35,5 +33,3 @@ public class Validator {
 	}
 
 }
-
-//you may add your own new classes

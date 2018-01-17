@@ -3,7 +3,6 @@ package by.tc.task01.entity;
 import java.io.Serializable;
 
 public class Laptop extends Appliance implements Serializable{
-	// you may add your own code here
     private double batteryCapacity;
     private String os;
     private double memoryRom;
