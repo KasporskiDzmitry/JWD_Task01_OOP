@@ -2,7 +2,7 @@ package by.tc.task01.dao.impl;
 
 import by.tc.task01.dao.ApplianceDAO;
 import by.tc.task01.dao.ReaderDAO;
-import by.tc.task01.dao.creators.ApplianceCreator;
+import by.tc.task01.dao.creator.ApplianceCreator;
 import by.tc.task01.entity.*;
 import by.tc.task01.entity.criteria.Criteria;
 

@@ -1,4 +1,4 @@
-package by.tc.task01.dao.creators.creatorInterface;
+package by.tc.task01.dao.creator;
 
 import by.tc.task01.entity.Appliance;
 import java.util.Map;
