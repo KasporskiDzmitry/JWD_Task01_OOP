@@ -9,11 +9,12 @@ import java.util.Map;
  * Created by Дима on 17.10.2017.
  */
 public class VacuumCleanerCreator extends ApplianceCreator implements Creator {
-    VacuumCleaner vacuumCleaner = new VacuumCleaner();
+    private VacuumCleaner vacuumCleaner;
 
 
     @Override
     public Appliance create(Map<String, Object> mapFromDB) {
+        vacuumCleaner = new VacuumCleaner();
 
         vacuumCleaner.setWandType(String.valueOf(mapFromDB.get("WAND_TYPE")));
         vacuumCleaner.setMotorSpeedRegulation(Double.parseDouble(String.valueOf(mapFromDB.get("MOTOR_SPEED_REGULATION"))));

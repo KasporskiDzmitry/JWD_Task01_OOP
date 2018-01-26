@@ -9,11 +9,12 @@ import java.util.Map;
  * Created by Дима on 17.10.2017.
  */
 public class RefrigeratorCreator extends ApplianceCreator implements Creator {
-    Refrigerator refrigerator = new Refrigerator();
+    private Refrigerator refrigerator;
 
 
     @Override
     public Appliance create(Map<String, Object> mapFromDB) {
+        refrigerator = new Refrigerator();
 
         refrigerator.setWeight(Double.parseDouble(String.valueOf(mapFromDB.get("WEIGHT"))));
         refrigerator.setWidth(Double.parseDouble(String.valueOf(mapFromDB.get("WIDTH"))));

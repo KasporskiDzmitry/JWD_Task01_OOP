@@ -9,11 +9,12 @@ import java.util.Map;
  * Created by Дима on 17.10.2017.
  */
 public class SpeakersCreator extends ApplianceCreator implements Creator {
-    Speakers speakers = new Speakers();
+    private Speakers speakers;
 
 
     @Override
     public Appliance create(Map<String, Object> mapFromDB) {
+        speakers = new Speakers();
 
         speakers.setNumberOfSpeakers(Double.parseDouble(String.valueOf(mapFromDB.get("NUMBER_OF_SPEAKERS"))));
         speakers.setCordLength(Double.parseDouble(String.valueOf(mapFromDB.get("CORD_LENGTH"))));

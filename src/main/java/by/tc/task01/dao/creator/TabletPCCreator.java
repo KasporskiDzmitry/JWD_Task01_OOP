@@ -9,11 +9,13 @@ import java.util.Map;
  * Created by Дима on 17.10.2017.
  */
 public class TabletPCCreator extends ApplianceCreator implements Creator {
-    TabletPC tabletPC = new TabletPC();
+    private TabletPC tabletPC;
 
 
     @Override
     public Appliance create(Map<String, Object> mapFromDB) {
+        tabletPC = new TabletPC();
+
         tabletPC.setMemoryRom(Double.parseDouble(String.valueOf(mapFromDB.get("MEMORY_ROM"))));
         tabletPC.setFlashMemoryCapacity(Double.parseDouble(String.valueOf(mapFromDB.get("FLASH_MEMORY_CAPACITY"))));
         tabletPC.setDisplayInches(Double.parseDouble(String.valueOf(mapFromDB.get("DISPLAY_INCHES"))));

@@ -9,11 +9,12 @@ import java.util.Map;
  * Created by Дима on 17.10.2017.
  */
 public class LaptopCreator extends ApplianceCreator implements Creator {
-    Laptop laptop = new Laptop();
+    private Laptop laptop;
 
 
     @Override
     public Appliance create(Map<String, Object> mapFromDB) {
+        laptop = new Laptop();
 
         laptop.setOs(String.valueOf(mapFromDB.get("OS")));
         laptop.setMemoryRom(Double.parseDouble(String.valueOf(mapFromDB.get("MEMORY_ROM"))));

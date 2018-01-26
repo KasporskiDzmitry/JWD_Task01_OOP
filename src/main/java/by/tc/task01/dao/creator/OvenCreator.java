@@ -10,10 +10,11 @@ import java.util.Map;
  */
 public class OvenCreator extends ApplianceCreator implements Creator {
 
-    Oven oven = new Oven();
+    private Oven oven;
 
 
     public Appliance create(Map<String, Object> mapFromDB) {
+        oven = new Oven();
 
         oven.setWeight(Double.parseDouble(String.valueOf(mapFromDB.get("WEIGHT"))));
         oven.setWidth(Double.parseDouble(String.valueOf(mapFromDB.get("WIDTH"))));

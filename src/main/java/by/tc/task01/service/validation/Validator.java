@@ -22,7 +22,7 @@ public class Validator {
                 for (int i = 0; i < valueOfKey.length(); i++) {
                     c = valueOfKey.charAt(i);
                     if (!(c >= '0' && c <= '9' || c == '.')) {
-                        throw new ValidationException(criteria.getApplianceType(), key.toString(), valueOfKey);
+                        throw new ValidationException("Неверное значение параметра " + key.toString() + ": " + valueOfKey);
                     }
                 }
             }

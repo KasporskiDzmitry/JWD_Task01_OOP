@@ -1,5 +1,6 @@
 package by.tc.task01.dao;
 
+import by.tc.task01.dao.exception.DAOException;
 import by.tc.task01.entity.criteria.Criteria;
 
 import java.io.BufferedReader;
@@ -23,10 +24,11 @@ public class ReaderDAO{
     private String editedStr;
     private String[] editedStrArrayView;
     private String str;
+    private String splitter = "=|\\,\\ ";
     private int numberOfMatches;
     private boolean match;
 
-    public Map<String, Object> readFile(Criteria criteria) {
+    public Map<String, Object> readFile(Criteria criteria) throws DAOException {
         mapFromDB.clear();
         str = "";
         match = false;
@@ -47,12 +49,12 @@ public class ReaderDAO{
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new DAOException("Ошибка при работе с файлом");
         } finally {
             try {
                 fr.close();
             } catch (IOException e) {
-                e.printStackTrace();
+                throw new DAOException("Ошибка при закрытии файла");
             }
         }
         return null;
@@ -60,7 +62,7 @@ public class ReaderDAO{
 
     private void editLine(String str, Criteria criteria) {
         editedStr = str.substring(criteria.getApplianceType().length() + 3, str.length() - 1);
-        editedStrArrayView = editedStr.split("=|\\,\\ ");
+        editedStrArrayView = editedStr.split(splitter);
         for (int i = 0; i < editedStrArrayView.length; i++) {
             if (i % 2 == 0) {
                 keys.add(editedStrArrayView[i]);

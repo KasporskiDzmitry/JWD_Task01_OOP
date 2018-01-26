@@ -6,10 +6,10 @@ public class PrintApplianceInfo {
 	
 	public static void print(Appliance appliance) {
 
-			if (appliance == null) {
-				System.out.println("Ничего не нашлось");
-			} else {
+			if (appliance != null) {
 				System.out.println(appliance.toString());
+			} else {
+				System.out.println("Ничего не нашлось");
 			}
 	}
 
