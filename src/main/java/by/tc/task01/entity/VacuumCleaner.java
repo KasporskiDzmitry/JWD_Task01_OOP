@@ -101,13 +101,13 @@ public class VacuumCleaner extends Appliance implements Serializable{
     }
 
     public String toString() {
-        String object = "Объект: " + this.getClass().getSimpleName();
-        String objectInfo = "powerConsumption = " + this.powerConsumption + "\n" +
+        return
+                "VacuumCleaner" + "\n" +
+                "powerConsumption = " + this.powerConsumption + "\n" +
                 "motorSpeedRegulation = " + this.motorSpeedRegulation + "\n" +
                 "cleaningWidth = " + this.cleaningWidth + "\n" +
                 "filterType = " + this.filterType + "\n" +
                 "bagType = " + this.bagType + "\n" +
                 "wandType = " + this.wandType;
-        return object + "\n" + objectInfo;
     }
 }

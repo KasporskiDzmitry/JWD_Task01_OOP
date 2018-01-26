@@ -78,12 +78,12 @@ public class TabletPC extends Appliance implements Serializable{
     }
 
     public String toString() {
-        String object = "Объект: " + this.getClass().getSimpleName();
-        String objectInfo = "batteryCapacity = " + this.batteryCapacity + "\n" +
+        return
+                "TabletPC" + "\n" +
+                "batteryCapacity = " + this.batteryCapacity + "\n" +
                 "displayInches = " + this.displayInches + "\n" +
                 "memoryRom = " + this.memoryRom + "\n" +
                 "flashMemoryCapacity = " + this.flashMemoryCapacity + "\n" +
                 "color = " + this.color;
-        return object + "\n" + objectInfo;
     }
 }

@@ -79,13 +79,13 @@ public class Oven extends Appliance implements Serializable{
         return (int)(31*powerConsumption + 31*weight + 31*capacity + 31*depth + 31*height + 31*width);
     }
     public String toString() {
-        String object = "Объект: " + this.getClass().getSimpleName();
-        String objectInfo = "powerConsumption = " + this.powerConsumption + "\n" +
+        return
+                "Oven" + "\n" +
+                "powerConsumption = " + this.powerConsumption + "\n" +
                 "weight = " + this.weight + "\n" +
                 "capacity = " + this.capacity + "\n" +
                 "depth = " + this.depth + "\n" +
                 "height = " + this.height + "\n" +
                 "width = " + this.width;
-        return object + "\n" + objectInfo;
     }
 }

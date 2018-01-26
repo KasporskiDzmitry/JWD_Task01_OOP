@@ -80,13 +80,13 @@ public class Refrigerator extends Appliance implements Serializable{
     }
 
     public String toString() {
-        String object = "Объект: " + this.getClass().getSimpleName();
-        String objectInfo = "powerConsumption = " + this.powerConsumption + "\n" +
+        return
+                "Refrigerator" + "\n" +
+                "powerConsumption = " + this.powerConsumption + "\n" +
                 "weight = " + this.weight + "\n" +
                 "freezerCapacity = " + this.freezerCapacity + "\n" +
                 "overallCapacity = " + this.overallCapacity + "\n" +
                 "height = " + this.height + "\n" +
                 "width = " + this.width;
-        return object + "\n" + objectInfo;
     }
 }

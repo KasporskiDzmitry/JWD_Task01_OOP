@@ -67,11 +67,11 @@ public class Speakers extends Appliance implements Serializable{
     }
 
     public String toString() {
-        String object = "Объект: " + this.getClass().getSimpleName();
-        String objectInfo = "powerConsumption = " + this.powerConsumption + "\n" +
+        return
+                "Speakers" + "\n" +
+                "powerConsumption = " + this.powerConsumption + "\n" +
                 "numberOfSpeakers = " + this.numberOfSpeakers + "\n" +
                 "frequencyRange = " + this.frequencyRange + "\n" +
                 "cordLength = " + this.cordLength;
-        return object + "\n" + objectInfo;
     }
 }

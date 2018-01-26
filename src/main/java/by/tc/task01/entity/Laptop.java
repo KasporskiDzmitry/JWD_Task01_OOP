@@ -76,12 +76,12 @@ public class Laptop extends Appliance implements Serializable{
     }
 
     public String toString() {
-        String object = "Объект: " + this.getClass().getSimpleName();
-        String objectInfo = "batteryCapacity = " + this.batteryCapacity + "\n" +
+        return
+                "Laptop" + "\n" +
+                "batteryCapacity = " + this.batteryCapacity + "\n" +
                 "displayInchs = " + this.displayInchs + "\n" +
                 "cpu = " + this.cpu + "\n" +
                 "memoryRom = " + this.memoryRom + "\n" +
                 "os = " + this.os;
-        return object + "\n" + objectInfo;
     }
 }
