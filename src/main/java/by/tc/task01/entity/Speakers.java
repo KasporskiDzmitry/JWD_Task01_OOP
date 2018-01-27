@@ -2,7 +2,7 @@ package by.tc.task01.entity;
 
 import java.io.Serializable;
 
-public class Speakers extends Appliance implements Serializable{
+public class Speakers extends Appliance implements Serializable, PrintInfo{
     private double powerConsumption;
     private double numberOfSpeakers;
     private String frequencyRange;
@@ -67,6 +67,16 @@ public class Speakers extends Appliance implements Serializable{
     }
 
     public String toString() {
+        return
+                "Speakers" + "\n" +
+                "powerConsumption = " + this.powerConsumption + "\n" +
+                "numberOfSpeakers = " + this.numberOfSpeakers + "\n" +
+                "frequencyRange = " + this.frequencyRange + "\n" +
+                "cordLength = " + this.cordLength;
+    }
+
+    @Override
+    public String printInformation() {
         return
                 "Speakers" + "\n" +
                 "powerConsumption = " + this.powerConsumption + "\n" +

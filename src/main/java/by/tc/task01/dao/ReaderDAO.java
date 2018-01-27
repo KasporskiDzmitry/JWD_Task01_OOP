@@ -39,7 +39,7 @@ public class ReaderDAO{
             while (str != null | match) {
                 str = br.readLine();
                 if (str != null && str.contains(criteria.getApplianceType())) {
-                    editLine(str, criteria);
+                    parseLine(str, criteria);
                 }
                 if (compareTwoMaps(criteria,mapFromDB)) {
                     match = true;
@@ -60,7 +60,7 @@ public class ReaderDAO{
         return null;
     }
 
-    private void editLine(String str, Criteria criteria) {
+    private void parseLine(String str, Criteria criteria) {
         editedStr = str.substring(criteria.getApplianceType().length() + 3, str.length() - 1);
         editedStrArrayView = editedStr.split(splitter);
         for (int i = 0; i < editedStrArrayView.length; i++) {

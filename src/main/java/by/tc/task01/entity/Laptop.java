@@ -2,7 +2,7 @@ package by.tc.task01.entity;
 
 import java.io.Serializable;
 
-public class Laptop extends Appliance implements Serializable{
+public class Laptop extends Appliance implements Serializable, PrintInfo{
     private double batteryCapacity;
     private String os;
     private double memoryRom;
@@ -76,6 +76,17 @@ public class Laptop extends Appliance implements Serializable{
     }
 
     public String toString() {
+        return
+                "Laptop" + "\n" +
+                "batteryCapacity = " + this.batteryCapacity + "\n" +
+                "displayInchs = " + this.displayInchs + "\n" +
+                "cpu = " + this.cpu + "\n" +
+                "memoryRom = " + this.memoryRom + "\n" +
+                "os = " + this.os;
+    }
+
+    @Override
+    public String printInformation() {
         return
                 "Laptop" + "\n" +
                 "batteryCapacity = " + this.batteryCapacity + "\n" +

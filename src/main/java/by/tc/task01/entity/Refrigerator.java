@@ -2,7 +2,7 @@ package by.tc.task01.entity;
 
 import java.io.Serializable;
 
-public class Refrigerator extends Appliance implements Serializable{
+public class Refrigerator extends Appliance implements Serializable, PrintInfo{
     private double powerConsumption;
     private double weight;
     private double freezerCapacity;
@@ -80,6 +80,18 @@ public class Refrigerator extends Appliance implements Serializable{
     }
 
     public String toString() {
+        return
+                "Refrigerator" + "\n" +
+                "powerConsumption = " + this.powerConsumption + "\n" +
+                "weight = " + this.weight + "\n" +
+                "freezerCapacity = " + this.freezerCapacity + "\n" +
+                "overallCapacity = " + this.overallCapacity + "\n" +
+                "height = " + this.height + "\n" +
+                "width = " + this.width;
+    }
+
+    @Override
+    public String printInformation() {
         return
                 "Refrigerator" + "\n" +
                 "powerConsumption = " + this.powerConsumption + "\n" +

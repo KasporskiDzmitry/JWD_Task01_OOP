@@ -3,7 +3,7 @@ package by.tc.task01.entity;
 import javax.sql.rowset.serial.SerialArray;
 import java.io.Serializable;
 
-public class TabletPC extends Appliance implements Serializable{
+public class TabletPC extends Appliance implements Serializable, PrintInfo{
     private double batteryCapacity;
     private double displayInches;
     private double memoryRom;
@@ -78,6 +78,17 @@ public class TabletPC extends Appliance implements Serializable{
     }
 
     public String toString() {
+        return
+                "TabletPC" + "\n" +
+                "batteryCapacity = " + this.batteryCapacity + "\n" +
+                "displayInches = " + this.displayInches + "\n" +
+                "memoryRom = " + this.memoryRom + "\n" +
+                "flashMemoryCapacity = " + this.flashMemoryCapacity + "\n" +
+                "color = " + this.color;
+    }
+
+    @Override
+    public String printInformation() {
         return
                 "TabletPC" + "\n" +
                 "batteryCapacity = " + this.batteryCapacity + "\n" +

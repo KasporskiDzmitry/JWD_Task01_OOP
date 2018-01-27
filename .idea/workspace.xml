@@ -2,34 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22a5e06d-5b77-43f8-9d05-954e83c73f96" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/ApplianceDAO.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/ApplianceDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/ReaderDAO.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/ReaderDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/creator/LaptopCreator.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/creator/LaptopCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/creator/OvenCreator.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/creator/OvenCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/creator/RefrigeratorCreator.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/creator/RefrigeratorCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/creator/SpeakersCreator.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/creator/SpeakersCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/creator/TabletPCCreator.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/creator/TabletPCCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/creator/VacuumCleanerCreator.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/creator/VacuumCleanerCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/impl/ApplianceDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/dao/impl/ApplianceDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/main/Main.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/Appliance.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/Appliance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/Laptop.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/Laptop.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/Oven.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/Oven.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/Refrigerator.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/Refrigerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/Speakers.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/Speakers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/TabletPC.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/TabletPC.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/VacuumCleaner.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/entity/VacuumCleaner.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/main/PrintApplianceInfo.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/main/PrintApplianceInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/service/exception/ValidationException.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/service/exception/ValidationException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/service/impl/ApplianceServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/service/impl/ApplianceServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/tc/task01/service/validation/Validator.class" afterPath="$PROJECT_DIR$/target/classes/by/tc/task01/service/validation/Validator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/ApplianceDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/ApplianceDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/ReaderDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/ReaderDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/LaptopCreator.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/LaptopCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/OvenCreator.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/OvenCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/RefrigeratorCreator.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/RefrigeratorCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/SpeakersCreator.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/SpeakersCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/TabletPCCreator.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/TabletPCCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/VacuumCleanerCreator.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/VacuumCleanerCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/impl/ApplianceDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/impl/ApplianceDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Appliance.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Appliance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Laptop.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Laptop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Oven.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Oven.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Refrigerator.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Refrigerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Speakers.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Speakers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/TabletPC.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/TabletPC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/VacuumCleaner.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/VacuumCleaner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/main/PrintApplianceInfo.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/main/PrintApplianceInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/service/exception/ValidationException.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/service/exception/ValidationException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/service/impl/ApplianceServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/service/impl/ApplianceServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task01/service/validation/Validator.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task01/service/validation/Validator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +32,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ApplianceServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/service/impl/ApplianceServiceImpl.java">
+      <file leaf-file-name="ReaderDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/dao/ReaderDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            <state relative-caret-position="255">
+              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -57,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -94,15 +84,8 @@
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creators/TabletPCCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/service/creators/ApplianceCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creators/ApplianceCreator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Appliance.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/criteria/Criteria.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/Creator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/VacuumCleaner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/TabletPC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Speakers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Refrigerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Oven.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Laptop.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/OvenCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/LaptopCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/creator/RefrigeratorCreator.java" />
@@ -112,11 +95,19 @@
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/service/exception/ValidationException.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/service/validation/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/exception/DAOException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/ReaderDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/impl/ApplianceDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/service/impl/ApplianceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/main/PrintApplianceInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/service/impl/ApplianceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/PrintInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Laptop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Oven.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Refrigerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Speakers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/TabletPC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/VacuumCleaner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Appliance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/main/PrintApplianceInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/task01/dao/ReaderDAO.java" />
       </list>
     </option>
   </component>
@@ -149,6 +140,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,36 +170,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JWD_Task01_OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JWD_Task01_OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -235,13 +197,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JWD_Task01_OOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JWD_Task01_OOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -722,6 +709,8 @@
       <workItem from="1516914997061" duration="516000" />
       <workItem from="1516953379724" duration="2818000" />
       <workItem from="1516969371860" duration="3693000" />
+      <workItem from="1516992857676" duration="581000" />
+      <workItem from="1517042977634" duration="2347000" />
     </task>
     <task id="LOCAL-00001" summary="delete class">
       <created>1509305890263</created>
@@ -734,7 +723,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132078000" />
+    <option name="totallyTimeSpent" value="135006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -747,10 +736,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27244094" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27244094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27244094" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -792,20 +781,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/criteria/Criteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/appliances_db.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="89" lean-forward="false" selection-start-line="0" selection-start-column="89" selection-end-line="0" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/dao/impl/ApplianceDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -898,13 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Appliance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/criteria/SearchCriteriaByValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -926,62 +894,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/VacuumCleaner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="102" column="30" lean-forward="false" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/TabletPC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="79" column="30" lean-forward="false" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Speakers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="74" column="50" lean-forward="false" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Refrigerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="81" column="30" lean-forward="false" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Oven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="80" column="30" lean-forward="false" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Laptop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="77" column="30" lean-forward="false" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="375" column="18" lean-forward="false" selection-start-line="375" selection-start-column="18" selection-end-line="375" selection-end-column="18" />
-          <folding>
-            <element signature="e#15711#15712#0" expanded="true" />
-            <element signature="e#15747#15748#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -989,7 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,7 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,7 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,9 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,9 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="24" column="107" lean-forward="false" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1073,10 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,14 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1099,7 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="19" column="68" lean-forward="false" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,17 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/dao/ReaderDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="51" column="62" lean-forward="false" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,22 +1003,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/service/impl/ApplianceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/criteria/PrintInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Laptop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="95" column="34" lean-forward="true" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Oven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="94" column="16" lean-forward="false" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/PrintInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Refrigerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/TabletPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/VacuumCleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="116" column="16" lean-forward="false" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Speakers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="80" column="16" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/main/PrintApplianceInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        <state relative-caret-position="153">
+          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/service/impl/ApplianceServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/entity/Appliance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        <state relative-caret-position="34">
+          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task01/dao/ReaderDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding />
         </state>
       </provider>

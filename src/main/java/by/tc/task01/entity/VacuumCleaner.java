@@ -2,7 +2,7 @@ package by.tc.task01.entity;
 
 import java.io.Serializable;
 
-public class VacuumCleaner extends Appliance implements Serializable{
+public class VacuumCleaner extends Appliance implements Serializable, PrintInfo{
     private double powerConsumption;
     private String filterType;
     private String bagType;
@@ -101,6 +101,18 @@ public class VacuumCleaner extends Appliance implements Serializable{
     }
 
     public String toString() {
+        return
+                "VacuumCleaner" + "\n" +
+                "powerConsumption = " + this.powerConsumption + "\n" +
+                "motorSpeedRegulation = " + this.motorSpeedRegulation + "\n" +
+                "cleaningWidth = " + this.cleaningWidth + "\n" +
+                "filterType = " + this.filterType + "\n" +
+                "bagType = " + this.bagType + "\n" +
+                "wandType = " + this.wandType;
+    }
+
+    @Override
+    public String printInformation() {
         return
                 "VacuumCleaner" + "\n" +
                 "powerConsumption = " + this.powerConsumption + "\n" +
