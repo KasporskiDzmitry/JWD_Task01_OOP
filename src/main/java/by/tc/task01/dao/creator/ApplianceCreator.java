@@ -3,6 +3,7 @@ package by.tc.task01.dao.creator;
 import by.tc.task01.entity.Appliance;
 import by.tc.task01.entity.criteria.Criteria;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -13,6 +14,7 @@ public class ApplianceCreator{
     private Appliance appliance;
 
     public <E> Appliance createApp(Criteria<E> criteria, Map<String, Object> mapFromDB) {
+
         if (criteria.getApplianceType().equals("Oven")) {
             appliance = new OvenCreator().create(mapFromDB);
         }

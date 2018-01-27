@@ -11,9 +11,6 @@ import java.util.*;
 
 public class ApplianceDAOImpl implements ApplianceDAO {
 
-    ApplianceCreator applianceCreator = new ApplianceCreator();
-
-
     ReaderDAO readerDAO = new ReaderDAO();
     Map<String, Object> newMap = new HashMap<>();
 
@@ -22,7 +19,7 @@ public class ApplianceDAOImpl implements ApplianceDAO {
         if (newMap == null) {
             return null;
         }
-        return applianceCreator.createApp(criteria, newMap);
+        return new ApplianceCreator().createApp(criteria, newMap);
     }
 
 
