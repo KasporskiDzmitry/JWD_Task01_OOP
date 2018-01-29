@@ -2,16 +2,21 @@ package by.tc.task01.dao.creator;
 
 import by.tc.task01.entity.Appliance;
 import by.tc.task01.entity.Oven;
-import by.tc.task01.entity.criteria.Criteria;
 
 import java.util.Map;
 
 /**
  * Created by Дима on 17.10.2017.
  */
-public class OvenCreator extends ApplianceCreator implements Creator {
+public class OvenCreator implements Command {
 
-    public Appliance create(Map<String, Object> mapFromDB) {
+    private static OvenCreator instance = new OvenCreator();
+
+    public static OvenCreator getInstance() {
+        return instance;
+    }
+
+    public Appliance execute (Map<String, Object> mapFromDB) {
         Oven oven = new Oven();
 
         oven.setWeight(Double.parseDouble(String.valueOf(mapFromDB.get("WEIGHT"))));

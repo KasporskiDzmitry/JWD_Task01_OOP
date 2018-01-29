@@ -8,13 +8,16 @@ import java.util.Map;
 /**
  * Created by Дима on 17.10.2017.
  */
-public class LaptopCreator extends ApplianceCreator implements Creator {
-    private Laptop laptop;
+public class LaptopCreator implements Command {
+    private static LaptopCreator instance = new LaptopCreator();
 
+    public static LaptopCreator getInstance() {
+        return instance;
+    }
 
     @Override
-    public Appliance create(Map<String, Object> mapFromDB) {
-        laptop = new Laptop();
+    public Appliance execute (Map<String, Object> mapFromDB) {
+        Laptop laptop = new Laptop();
 
         laptop.setOs(String.valueOf(mapFromDB.get("OS")));
         laptop.setMemoryRom(Double.parseDouble(String.valueOf(mapFromDB.get("MEMORY_ROM"))));

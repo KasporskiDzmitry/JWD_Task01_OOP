@@ -2,7 +2,7 @@ package by.tc.task01.entity;
 
 import java.io.Serializable;
 
-public class VacuumCleaner extends Appliance implements Serializable, PrintInfo{
+public class VacuumCleaner implements Serializable, Appliance{
     private double powerConsumption;
     private String filterType;
     private String bagType;

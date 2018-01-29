@@ -2,7 +2,7 @@ package by.tc.task01.entity;
 
 import java.io.Serializable;
 
-public class Speakers extends Appliance implements Serializable, PrintInfo{
+public class Speakers implements Serializable, Appliance{
     private double powerConsumption;
     private double numberOfSpeakers;
     private String frequencyRange;

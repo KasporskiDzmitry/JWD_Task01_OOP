@@ -8,10 +8,16 @@ import java.util.Map;
 /**
  * Created by Дима on 17.10.2017.
  */
-public class VacuumCleanerCreator extends ApplianceCreator implements Creator {
+public class VacuumCleanerCreator implements Command {
+
+    private static VacuumCleanerCreator instance = new VacuumCleanerCreator();
+
+    public static VacuumCleanerCreator getInstance() {
+        return instance;
+    }
 
     @Override
-    public Appliance create(Map<String, Object> mapFromDB) {
+    public Appliance execute (Map<String, Object> mapFromDB) {
         VacuumCleaner vacuumCleaner = new VacuumCleaner();
 
         vacuumCleaner.setWandType(String.valueOf(mapFromDB.get("WAND_TYPE")));

@@ -2,7 +2,7 @@ package by.tc.task01.entity;
 
 import java.io.Serializable;
 
-public class Oven extends Appliance implements Serializable, PrintInfo{
+public class Oven implements Serializable, Appliance{
     private double powerConsumption;
     private double weight;
     private double capacity;

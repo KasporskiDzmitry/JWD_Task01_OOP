@@ -2,7 +2,7 @@ package by.tc.task01.entity;
 
 import java.io.Serializable;
 
-public class Laptop extends Appliance implements Serializable, PrintInfo{
+public class Laptop implements Serializable, Appliance{
     private double batteryCapacity;
     private String os;
     private double memoryRom;

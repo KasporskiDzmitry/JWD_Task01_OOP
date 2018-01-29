@@ -8,10 +8,16 @@ import java.util.Map;
 /**
  * Created by Дима on 17.10.2017.
  */
-public class RefrigeratorCreator extends ApplianceCreator implements Creator {
+public class RefrigeratorCreator implements Command {
+
+    private static RefrigeratorCreator instance = new RefrigeratorCreator();
+
+    public static RefrigeratorCreator getInstance() {
+        return instance;
+    }
 
     @Override
-    public Appliance create(Map<String, Object> mapFromDB) {
+    public Appliance execute (Map<String, Object> mapFromDB) {
         Refrigerator refrigerator = new Refrigerator();
 
         refrigerator.setWeight(Double.parseDouble(String.valueOf(mapFromDB.get("WEIGHT"))));

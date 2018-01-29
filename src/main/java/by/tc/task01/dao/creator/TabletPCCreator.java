@@ -8,10 +8,16 @@ import java.util.Map;
 /**
  * Created by Дима on 17.10.2017.
  */
-public class TabletPCCreator extends ApplianceCreator implements Creator {
+public class TabletPCCreator implements Command {
+
+    private static TabletPCCreator instance = new TabletPCCreator();
+
+    public static TabletPCCreator getInstance() {
+        return instance;
+    }
 
     @Override
-    public Appliance create(Map<String, Object> mapFromDB) {
+    public Appliance execute(Map<String, Object> mapFromDB) {
         TabletPC tabletPC = new TabletPC();
 
         tabletPC.setMemoryRom(Double.parseDouble(String.valueOf(mapFromDB.get("MEMORY_ROM"))));

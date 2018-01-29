@@ -3,7 +3,7 @@ package by.tc.task01.entity;
 import javax.sql.rowset.serial.SerialArray;
 import java.io.Serializable;
 
-public class TabletPC extends Appliance implements Serializable, PrintInfo{
+public class TabletPC implements Serializable, Appliance{
     private double batteryCapacity;
     private double displayInches;
     private double memoryRom;

@@ -8,10 +8,16 @@ import java.util.Map;
 /**
  * Created by Дима on 17.10.2017.
  */
-public class SpeakersCreator extends ApplianceCreator implements Creator {
+public class SpeakersCreator implements Command {
+
+    private static SpeakersCreator instance = new SpeakersCreator();
+
+    public static SpeakersCreator getInstance() {
+        return instance;
+    }
 
     @Override
-    public Appliance create(Map<String, Object> mapFromDB) {
+    public Appliance execute(Map<String, Object> mapFromDB) {
         Speakers speakers = new Speakers();
 
         speakers.setNumberOfSpeakers(Double.parseDouble(String.valueOf(mapFromDB.get("NUMBER_OF_SPEAKERS"))));
